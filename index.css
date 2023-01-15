@@ -82,6 +82,6 @@ body{
 #login-form a{
     text-align: center;
     text-decoration: none;
-    color:inherit;
+    color: var(--jinpink);
     font-size: 13px;
 }
