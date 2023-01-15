@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./status-bar.css" />
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./nav-bar.css" />
+    <link rel="stylesheet" href="./screen-header.css" />
+    <link rel="stylesheet" href="./friends.css" />
+    <link rel="stylesheet" href="./user-components.css" />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="./find.css" />
+    <link rel="stylesheet" href="./icon-raw.css" />
+    <link rel="stylesheet" href="./more.css" />
+    <link rel="stylesheet" href="./alternative_screen_header.css" />
+    <link rel="stylesheet" href="./setting.css" />
+    <link rel="stylesheet" href="./chat.css" />
+    <link rel="stylesheet" href="./no_mobile.css" />
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cafd1dffde.js" crossorigin="anonymous"></script>
+    <title>chat w/ tomoyo - kokoa clone</title>
+</head>
+<body id="chat_screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+              </svg>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt_header">
+        <div class="alt_header_column">
+        <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+        </div>
+        <div class="alt_header_column">
+            <h1 class="alt_header_title">tomoyo</h1>
+        </div>
+        <div class="alt_header_column">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+   
+  
+    <main class="main_screen main_chat">
+        <div class="chat_timestamp">Tuesday, june 30, 2023
+        </div>
+
+        <div class="message_raw">
+           <img src="img/지수.jpg">
+           <div class="message_raw_content">
+            <span class="messeage_autor">tomoyo</span>
+            <div class="message_info">
+                <span class="message_bubble">what are you doing?</span>
+                <span class="message_time">21:27</span>
+            </div>
+           </div>
+        </div>
+
+        <div class="message_raw message_raw_own">
+            <div class="message_raw_content">
+             <div class="message_info">
+                 <span class="message_bubble">making pancakes</span>
+                 <span class="message_time">21:32</span>
+             </div>
+            </div>
+         </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply_column">
+            <input type="text" placeholder="write a message"/>
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no_mobile">
+        <Span>your screen is too big</Span>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

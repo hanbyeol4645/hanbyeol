@@ -1,0 +1,38 @@
+.alt_header{
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+
+.alt_header_column{
+    width: 33%;
+}
+
+
+.alt_header_title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.alt_header_column:first-child{
+    margin-right: auto;
+}
+
+.alt_header_column:nth-child(2){
+    text-align: center;
+}
+
+.alt_header_column:last-child{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.alt_header_column span:last-child{
+    margin-left: 20px;
+}

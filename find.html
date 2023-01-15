@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./status-bar.css" />
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./nav-bar.css" />
+    <link rel="stylesheet" href="./screen-header.css" />
+    <link rel="stylesheet" href="./friends.css" />
+    <link rel="stylesheet" href="./user-components.css" />
+    <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="./find.css" />
+    <link rel="stylesheet" href="./icon-raw.css" />
+    <link rel="stylesheet" href="./more.css" />
+    <link rel="stylesheet" href="./no_mobile.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cafd1dffde.js" crossorigin="anonymous"></script>
+    <title>find - kokoa clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+              </svg>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">find</h1>
+        <div class="screen-header__icons">
+         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+         <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+        </div>
+    </header>
+
+  
+    <main class="main_screen">
+       <div class="icon-raw">
+        <div class="icon-raw_icon">
+            <i class="fa-solid fa-qrcode"></i>
+            <span>Qr code</span></div>
+        <div class="icon-raw_icon">
+            <i class="fa-regular fa-address-book"></i>
+            <span>Add by contacts</span></div>
+        <div class="icon-raw_icon">
+            <i class="fa-solid fa-fingerprint"></i>
+            <span>Add by ID</span></div>
+        <div class="icon-raw_icon">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Invite</span></div>
+       </div>
+       <div class="recommended-friends">
+        <h6 class="recommended-friends__tittle">Recommended friends</h6>
+        <span>you have no recommended friends</span>
+       </div>
+       <div class="open_chat">
+        <div class="open_chat_header">
+            <h4>open chat</h4>
+            <Span>go to open chat home 
+                <i class="fa-solid fa-chevron-right fa-xs"></i></Span>
+        </div>
+        <div class="open_post">
+            <div class="open_post_column">
+                <h5 class="open_post_title"># BTS</h5>
+                <h6 clas="open_post_hashtags">#bts #army #friends</h6>
+                <div class="open_post_members">
+                    <img src="img/card.gif">
+                    <span class="open_post_member_count">802 members</span>
+                    <div class="divider"></div>
+                    <span class="open_post_member_status">Active</span>
+                </div>
+            </div>
+            <div class="open_post_column">
+                <div class="open_post_photo">
+                    <img src="img/card.gif">
+                <div class="open_post_heart_count">
+                    <i class="fa-solid fa-heart fa-xs"></i> <Span>342</Span>
+                </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__brn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__brn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="fa-solid fa-comment fa-2x"></i>
+                <a class="nav__link"></a>
+            </li>
+            <li class="nav__brn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__brn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__ellipsisdot"></div>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no_mobile">
+        <Span>your screen is too big</Span>
+    </div>
+
+    <script 
+       src="https://kit.fontawesome.com/6478f529f2.js" 
+       crossorigin="anonymous"
+    ></script>
+</body>
+</html>
