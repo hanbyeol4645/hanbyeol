@@ -199,3 +199,8 @@
 .reply_column input{
     left: -10px;
 }
+
+.message_raw_raw{
+    right: 100px;
+
+}
